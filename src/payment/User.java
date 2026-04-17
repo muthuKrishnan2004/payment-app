@@ -25,14 +25,17 @@ public class User
 		return pin;
 	}
 	public void DepositToAccount(double amount) 
+	public void depositToAccount(double amount) 
 	{
 		no.deposit(amount);
 	}
 	public void WithdrawToAccount(double amount) 
+	public void withdrawToAccount(double amount) 
 	{
 		no.withdraw(amount);
 	}
 	public double CheckBalance() 
+	public double checkBalance() 
 	{
 		no.checkbalance();
 		return no.checkbalance();
